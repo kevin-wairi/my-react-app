@@ -1,22 +1,20 @@
-import logo from './logo.svg';
+import data from './data.jpg';
+
 import './App.css';
 
 function App() {
+  const handleClick = ()=>{
+    alert('You clicked this button')
+  }
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={data} className="dataImg" alt="data visualization" />
+        <h1>Data Visualization with Python</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        Combine the power of data and visuals to tell impactful stories and make data more accessible
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       <button className='App-link' onClick={handleClick}>Apply for our Data Science Part-time Course</button>
       </header>
     </div>
   );

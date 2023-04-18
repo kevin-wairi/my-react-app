@@ -2,9 +2,8 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dataImg{
+  height: 300px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -24,7 +23,13 @@
   color: white;
 }
 
-.App-link {
+.App-link{
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: medium;
+}
+.App-link:hover {
   color: #61dafb;
 }
 
